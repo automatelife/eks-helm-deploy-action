@@ -16,6 +16,9 @@ cat /github/home/.kube/config
 
 kubectl get all -n dev
 
+
+helm list --all-namespaces
+
 # Helm Deployment
 
 ####################
