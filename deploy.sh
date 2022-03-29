@@ -14,6 +14,8 @@ fi
 
 cat /github/home/.kube/config
 
+kubectl get all -n dev
+
 # Helm Deployment
 
 ####################
