@@ -12,12 +12,13 @@ else
         update-kubeconfig --name ${CLUSTER_NAME} 
 fi
 
-cat /github/home/.kube/config
 
-kubectl get all -n dev
-
-
-helm list --all-namespaces
+#########
+# Debug
+#########
+# cat /github/home/.kube/config
+# kubectl get all -n dev
+# helm list --all-namespaces
 
 # Helm Deployment
 
