@@ -12,6 +12,8 @@ else
         update-kubeconfig --name ${CLUSTER_NAME} 
 fi
 
+cat /github/home/.kube/config
+
 # Helm Deployment
 
 ####################
